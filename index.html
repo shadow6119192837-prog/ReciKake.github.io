@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReciKake - プライバシーポリシー / Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        .language-toggle {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .language-toggle button {
+            background: white;
+            border: 2px solid #667eea;
+            color: #667eea;
+            padding: 10px 30px;
+            margin: 0 10px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .language-toggle button:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+
+        .language-toggle button.active {
+            background: #667eea;
+            color: white;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        .section {
+            display: none;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin: 30px 0 15px 0;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        h3 {
+            color: #764ba2;
+            font-size: 1.4em;
+            margin: 25px 0 12px 0;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin: 15px 0 15px 30px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 20px;
+            border-left: 4px solid #ffc107;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+
+        .highlight strong {
+            color: #856404;
+            font-size: 1.1em;
+        }
+
+        .info-box {
+            background: #e3f2fd;
+            padding: 20px;
+            border-left: 4px solid #2196f3;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+
+        .info-box strong {
+            color: #0d47a1;
+        }
+
+        .contact {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .contact a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            word-break: break-all;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #6c757d;
+            font-size: 0.9em;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .last-updated {
+            text-align: center;
+            color: #6c757d;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 25px 20px;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            h3 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>ReciKake</h1>
+            <p>プライバシーポリシー / Privacy Policy</p>
+        </div>
+
+        <div class="language-toggle">
+            <button onclick="showLanguage('ja')" id="btn-ja" class="active">日本語</button>
+            <button onclick="showLanguage('en')" id="btn-en">English</button>
+        </div>
+
+        <div class="content">
+            <!-- 日本語版 -->
+            <div id="ja-content" class="section active">
+                <p class="last-updated">最終更新日: 2025年11月18日</p>
+
+                <h2>概要</h2>
+                <p>ReciKake（以下「本アプリ」）は、ユーザーのプライバシーを最優先に考えた完全オフライン型の支出管理アプリです。本アプリは、ユーザーの個人情報を一切収集、送信、共有しません。</p>
+
+                <h2>収集する情報</h2>
+                <div class="highlight">
+                    <strong>本アプリは、いかなる個人情報も収集しません。</strong>
+                </div>
+                <p>本アプリで記録される以下のデータは、全てユーザーの端末内にのみ保存されます：</p>
+                <ul>
+                    <li>支出記録（金額、日付、カテゴリ、メモ）</li>
+                    <li>レシート画像</li>
+                    <li>カテゴリ設定</li>
+                    <li>アラーム設定</li>
+                </ul>
+
+                <h2>データの保存場所</h2>
+                <p>全てのデータは、ユーザーのiOS端末内にローカル保存されます。具体的には：</p>
+                <ul>
+                    <li><strong>SwiftData</strong>: 支出記録、カテゴリ情報</li>
+                    <li><strong>ローカルストレージ</strong>: レシート画像</li>
+                    <li><strong>UserDefaults</strong>: アラーム設定</li>
+                </ul>
+                <p>これらのデータは、Apple社のiOSセキュリティ機能により保護されており、端末外部には一切送信されません。</p>
+
+                <h2>データの共有</h2>
+                <div class="highlight">
+                    <strong>本アプリは、第三者とデータを共有しません。</strong>
+                </div>
+                <ul>
+                    <li>サーバーへの送信: なし</li>
+                    <li>クラウド同期: なし</li>
+                    <li>広告ネットワーク: なし</li>
+                    <li>アナリティクス: なし</li>
+                    <li>第三者サービス: なし</li>
+                </ul>
+
+                <h2>インターネット接続</h2>
+                <p>本アプリは、インターネット接続を必要としません。完全にオフラインで動作します。</p>
+
+                <h2>カメラとフォトライブラリへのアクセス</h2>
+                <p>本アプリは、レシート撮影機能のために以下の権限を要求する場合があります：</p>
+                <ul>
+                    <li><strong>カメラ</strong>: レシート撮影のため</li>
+                    <li><strong>フォトライブラリ</strong>: レシート画像の保存のため</li>
+                </ul>
+                <p>撮影・保存された画像は、全て端末内にのみ保存され、外部に送信されることはありません。</p>
+
+                <h2>通知</h2>
+                <p>本アプリは、ユーザーが設定した場合にのみ、支出記録のリマインダー通知を送信します。これらはローカル通知であり、外部サーバーを経由しません。</p>
+
+                <h2>データの削除</h2>
+                <div class="info-box">
+                    <p>本アプリをアンインストールすることで、保存された全てのデータが端末から完全に削除されます。</p>
+                    <p>また、アプリ内の設定画面から「全データを削除」を実行することで、アプリを保持したままデータのみを削除することも可能です。</p>
+                </div>
+
+                <h2>お子様のプライバシー</h2>
+                <p>本アプリは13歳未満のお子様から意図的に情報を収集することはありません。本アプリはいかなる年齢のユーザーからも個人情報を収集しません。</p>
+
+                <h2>プライバシーポリシーの変更</h2>
+                <p>本プライバシーポリシーは、必要に応じて更新される場合があります。変更があった場合は、本ページに新しいプライバシーポリシーを掲載します。</p>
+
+                <h2>お問い合わせ</h2>
+                <div class="contact">
+                    <p>本プライバシーポリシーに関するご質問やご不明な点がございましたら、以下までお問い合わせください：</p>
+                    <p><strong>GitHubリポジトリ</strong>:<br>
+                    <a href="https://github.com/shadow6119192837-prog/ReciKake/issues" target="_blank">https://github.com/shadow6119192837-prog/ReciKake/issues</a></p>
+                </div>
+            </div>
+
+            <!-- English版 -->
+            <div id="en-content" class="section">
+                <p class="last-updated">Last Updated: November 18, 2025</p>
+
+                <h2>Overview</h2>
+                <p>ReciKake is a completely offline expense tracking application that prioritizes user privacy. This app does not collect, transmit, or share any personal information.</p>
+
+                <h2>Information We Collect</h2>
+                <div class="highlight">
+                    <strong>This app does not collect any personal information.</strong>
+                </div>
+                <p>All data recorded in this app is stored locally on your device only:</p>
+                <ul>
+                    <li>Expense records (amount, date, category, notes)</li>
+                    <li>Receipt images</li>
+                    <li>Category settings</li>
+                    <li>Alarm settings</li>
+                </ul>
+
+                <h2>Data Storage</h2>
+                <p>All data is stored locally on your iOS device:</p>
+                <ul>
+                    <li><strong>SwiftData</strong>: Expense records, category information</li>
+                    <li><strong>Local Storage</strong>: Receipt images</li>
+                    <li><strong>UserDefaults</strong>: Alarm settings</li>
+                </ul>
+                <p>This data is protected by Apple's iOS security features and is never transmitted outside your device.</p>
+
+                <h2>Data Sharing</h2>
+                <div class="highlight">
+                    <strong>This app does not share data with third parties.</strong>
+                </div>
+                <ul>
+                    <li>No server transmission</li>
+                    <li>No cloud synchronization</li>
+                    <li>No advertising networks</li>
+                    <li>No analytics</li>
+                    <li>No third-party services</li>
+                </ul>
+
+                <h2>Internet Connection</h2>
+                <p>This app does not require an internet connection and operates completely offline.</p>
+
+                <h2>Camera and Photo Library Access</h2>
+                <p>This app may request the following permissions for receipt capture:</p>
+                <ul>
+                    <li><strong>Camera</strong>: For taking receipt photos</li>
+                    <li><strong>Photo Library</strong>: For saving receipt images</li>
+                </ul>
+                <p>All captured and saved images are stored locally on your device only and are never transmitted externally.</p>
+
+                <h2>Notifications</h2>
+                <p>This app sends reminder notifications only if configured by the user. These are local notifications and do not go through external servers.</p>
+
+                <h2>Data Deletion</h2>
+                <div class="info-box">
+                    <p>All stored data is completely removed from your device when you uninstall this app.</p>
+                    <p>You can also delete data while keeping the app by using the "Delete All Data" function in the settings screen.</p>
+                </div>
+
+                <h2>Children's Privacy</h2>
+                <p>This app does not knowingly collect information from children under 13. This app does not collect personal information from users of any age.</p>
+
+                <h2>Changes to This Privacy Policy</h2>
+                <p>This Privacy Policy may be updated as necessary. When changes are made, the new Privacy Policy will be posted on this page.</p>
+
+                <h2>Contact Us</h2>
+                <div class="contact">
+                    <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+                    <p><strong>GitHub Repository</strong>:<br>
+                    <a href="https://github.com/shadow6119192837-prog/ReciKake/issues" target="_blank">https://github.com/shadow6119192837-prog/ReciKake/issues</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 ReciKake. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        function showLanguage(lang) {
+            // Hide all sections
+            document.getElementById('ja-content').classList.remove('active');
+            document.getElementById('en-content').classList.remove('active');
+
+            // Remove active class from all buttons
+            document.getElementById('btn-ja').classList.remove('active');
+            document.getElementById('btn-en').classList.remove('active');
+
+            // Show selected section and activate button
+            if (lang === 'ja') {
+                document.getElementById('ja-content').classList.add('active');
+                document.getElementById('btn-ja').classList.add('active');
+            } else {
+                document.getElementById('en-content').classList.add('active');
+                document.getElementById('btn-en').classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
